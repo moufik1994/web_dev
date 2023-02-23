@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h2>This is HTML  Form Tut</h2>
+    <form action="backend.php">
+        <label for="data">Name</label>
+        <div>
+            <input type="text" name="myName" id="data">
+        </div>
+        <br>
+        <label for="mydata">Role</label>
+        <div>
+            <input type="text" name="myRole" id="mydata">
+        </div>
+        <br>
+        <div>
+            Email: <input type="email" name="myEmail">
+        </div>
+        <div>
+            Date: <input type="date" name="myDate">
+        </div>
+        <div>
+            Bonus: <input type="number" name="myBonus">
+        </div>
+        <label for="box">Are you elegable</label>
+        <div>
+            <input type="checkbox" name="myEligibality" checked id="box">
+        </div>
+        <div>
+            Gender: Male <input type="radio" name="myGender" > Female <input type="radio" name="myGender" > 
+            Others <input type="radio" name="myGender" >
+        </div>
+        <div>
+            Write about Your self: <br>  <textarea name="myText" cols="30" rows="10"></textarea>
+        </div>
+        <label for="car">Seelect a car</label>
+        <select name="My Car" id="car">
+            <option value="Sft">Swift</option>
+            <option value="Mur">Maruthi</option>
+        </select>
+        <br>
+        <div>
+            Do you want to: <input type="submit" value="Submit Now"> <input type="reset" value="Reset Now">
+        </div>
+    </form>
+    
+</body>
+</html>
